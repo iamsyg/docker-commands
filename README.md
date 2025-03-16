@@ -32,6 +32,7 @@ If you are developing a production application, we recommend using TypeScript an
 - docker [container] prune
 - docker rmi [image_id]
 - docker run -d busybox
+- docker run -it ubuntu        (Interative mode)
 - docker run --name [name] [image]
 - docker run -p 8080:80 [image]
 - docker run -v $(pwd):/app [image]
